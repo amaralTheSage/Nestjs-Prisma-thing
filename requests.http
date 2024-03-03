@@ -1,0 +1,14 @@
+
+POST http://localhost:3000/products
+content-type: application/json
+
+{
+    "name": "long-sleeve shirt",
+    "price": 15.00,
+    "sale": false
+}
+
+//
+
+GET http://localhost:3000/products
+
